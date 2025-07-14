@@ -42,13 +42,8 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
   border: 2px solid #ffcf46;
+  box-sizing: border-box;
 }
-
-.card-face {
-  padding: 1em;
-  box-sizing: border-box; /* ✅ prevent overflow padding from growing */
-}
-
 
 .front {
   background: #014a37;
