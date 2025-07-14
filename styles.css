@@ -19,6 +19,8 @@ body {
   transform-style: preserve-3d;
   transition: transform 0.6s;
   cursor: pointer;
+  border: 2px solid #ffcf46;
+  border-radius: 12px;
 }
 
 .card.flipped {
