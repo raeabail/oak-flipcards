@@ -19,8 +19,8 @@ body {
   transform-style: preserve-3d;
   transition: transform 0.6s;
   cursor: pointer;
-  border: 2px solid #ffcf46; 
   border-radius: 12px;
+  outline: none;
 }
 
 
@@ -42,6 +42,7 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
   box-sizing: border-box;
+  border: 2px solid #ffcf46;
 }
 
 .front {
