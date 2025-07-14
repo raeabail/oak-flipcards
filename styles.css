@@ -13,8 +13,8 @@ body {
 }
 
 .card {
-  width: 350px;
-  height: 300px;
+  width: 450px;
+  height: 400px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s;
@@ -37,7 +37,6 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
   box-sizing: border-box;
   border: 2px solid #ffcf46;
