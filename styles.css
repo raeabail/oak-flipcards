@@ -47,7 +47,6 @@ body {
   background: #014a37;
   color: white;
   font-size: 1.1em;
-  border: 2px solid #ffcf46;
 }
 
 .front i {
@@ -62,5 +61,4 @@ body {
   transform: rotateY(180deg);
   font-size: 0.95em;
   line-height: 1.4;
-  border: 2px solid #ffcf46;
 }
