@@ -19,9 +19,10 @@ body {
   transform-style: preserve-3d;
   transition: transform 0.6s;
   cursor: pointer;
-  border: 2px solid #ffcf46;
+  border: 2px solid #ffcf46; 
   border-radius: 12px;
 }
+
 
 .card.flipped {
   transform: rotateY(180deg);
@@ -42,6 +43,12 @@ body {
   text-align: center;
   border: 2px solid #ffcf46;
 }
+
+.card-face {
+  padding: 1em;
+  box-sizing: border-box; /* ✅ prevent overflow padding from growing */
+}
+
 
 .front {
   background: #014a37;
