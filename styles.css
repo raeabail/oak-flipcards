@@ -20,6 +20,7 @@ body {
   transition: transform 0.6s;
   cursor: pointer;
   outline: none;
+  width: min(90vw, 350px);
 }
 
 
@@ -58,4 +59,21 @@ body {
   transform: rotateY(180deg);
   font-size: 0.95em;
   line-height: 1.4;
+}
+
+.front, .back {
+  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+  .card {
+    height: auto;
+    min-height: 220px;
+  }
+
+  .card-face {
+    font-size: 0.9rem;
+    padding: 0.75em;
+  }
 }
